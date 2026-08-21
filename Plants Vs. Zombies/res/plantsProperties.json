@@ -1,0 +1,10 @@
+[
+	{
+		"Id": "peashooter",
+		"Cost": 100,
+		"Hp": 300,
+		"AttackInterval": 1500,
+		"RechargeTime": 7500,
+		"Sleepy": false
+	}
+]

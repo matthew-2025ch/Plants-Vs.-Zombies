@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{147214c5-b668-40dc-b43b-edc6c363cb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{6fbcf876-65ab-4a73-b01b-822468fc4fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{9c61a0cd-ac00-47c0-8c94-0c78b330a983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8781e3d0-ae7d-4849-b192-a8134478e549}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common.hpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonManager.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseSeedScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonManager.hpp">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.hpp">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonDataManager.hpp">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.hpp">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseSeedScene.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\configs.json">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="res\manifest.json">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="res\saves.json">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="res\zombiesProperties.json">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="res\plantsProperties.json">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

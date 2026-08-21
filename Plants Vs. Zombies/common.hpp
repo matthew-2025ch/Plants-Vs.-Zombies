@@ -1,0 +1,30 @@
+#pragma once
+#include<iostream>
+#include<vector>
+#include<chrono>
+#include<thread>
+#include<random>
+#include<algorithm>
+#include<filesystem>
+#include<unordered_map>
+#include<string>
+#include<memory>
+#include<mutex>
+#include<atomic>
+#include<stdexcept>
+#include<utility>
+#include<fstream>
+#include<optional>
+#include<array>
+#include<spdlog/spdlog.h>
+#include<spdlog/sinks/rotating_file_sink.h>
+#ifdef _DEBUG
+#include<spdlog/sinks/stdout_color_sinks.h>
+#endif
+#include<SFML/Graphics.hpp>
+#include<SFML/Audio.hpp>
+#include<SFML/Network.hpp>
+#include<SFML/System.hpp>
+#include<nlohmann/json.hpp>
+#include<fmt/core.h>
+#include<fmt/ranges.h>

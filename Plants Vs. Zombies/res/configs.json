@@ -1,0 +1,17 @@
+{
+    "Window": {
+        "ResolutionWidth": 1280,
+        "ResolutionHeight": 720,
+        "Title": "Plants vs. Zombies",
+        "Fullscreen": false,
+        "VSync": false,
+        "FrameRateLimit": 60
+    },
+    "Audio": {
+        "MasterVolume": 100.0,
+        "MusicVolume": 80.0,
+        "SFXVolume": 100.0,
+        "muted": false
+    },
+    "Language": "zh-cn"
+}
